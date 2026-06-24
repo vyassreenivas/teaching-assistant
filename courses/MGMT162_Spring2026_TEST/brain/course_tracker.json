@@ -1,0 +1,126 @@
+{
+  "course": "MGMT 162: Strategic Analysis — The Business Capstone",
+  "quarter": "Spring 2026",
+  "sections": {
+    "Section 2": {
+      "time": "2:00-3:40 PM",
+      "students": 30
+    },
+    "Section 3": {
+      "time": "5:40-7:20 PM",
+      "students": 20
+    }
+  },
+  "schedule": {
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "first_class": "2026-03-31",
+    "last_class": "2026-06-04",
+    "total_classes": 20
+  },
+  "master_input": {
+    "file": "inputs/course_plan.xlsx"
+  },
+  "classes": [
+    {
+      "number": 1,
+      "date": "2026-03-31",
+      "day": "Tuesday",
+      "topic": "What Is Strategy?",
+      "session_type": "lecture",
+      "plan_status": "planned",
+      "status": "upcoming",
+      "key_question": "What makes a strategy good or bad?",
+      "ai_mode": "Solo",
+      "ai_activity": "Build your own definition of strategy before seeing frameworks. No AI."
+    },
+    {
+      "number": 2,
+      "date": "2026-04-03",
+      "day": "Thursday",
+      "topic": "External Analysis I: Industry Structure",
+      "session_type": "lecture",
+      "plan_status": "planned",
+      "status": "upcoming",
+      "key_question": "How does industry structure shape profitability?",
+      "ai_mode": "Solo",
+      "ai_activity": "Map Five Forces for an industry by hand. Develop pattern recognition."
+    },
+    {
+      "number": 3,
+      "date": "2026-04-08",
+      "day": "Tuesday",
+      "topic": "External Analysis II: Cola Wars",
+      "session_type": "case",
+      "plan_status": "planned",
+      "status": "upcoming",
+      "case": "Cola Wars Continue",
+      "key_question": "Why is the soft drink industry so profitable?",
+      "ai_mode": "AI-Partnered",
+      "ai_role": "Simulator",
+      "ai_activity": "Use AI as a competitor CEO to challenge your Five Forces analysis of the cola industry."
+    },
+    {
+      "number": 4,
+      "date": "2026-04-10",
+      "day": "Thursday",
+      "topic": "Internal Analysis I: Resources & Capabilities",
+      "session_type": "lecture",
+      "plan_status": "planned",
+      "status": "upcoming",
+      "key_question": "What makes a resource truly valuable?",
+      "ai_mode": "Reflection",
+      "ai_activity": "Compare your Solo Five Forces vs AI-Partnered version: where did AI add value? Where not?"
+    },
+    {
+      "number": 5,
+      "date": "2026-04-14",
+      "day": "Tuesday",
+      "topic": "Internal Analysis II: Walmart",
+      "session_type": "case",
+      "plan_status": "planned",
+      "status": "upcoming",
+      "case": "Walmart Stores, Inc.",
+      "key_question": "How do capabilities become unbeatable?",
+      "ai_mode": "AI-Partnered",
+      "ai_role": "Coach",
+      "ai_activity": "Submit your VRIO analysis to AI-Coach for feedback before class discussion."
+    }
+  ],
+  "quiz_tracker": {
+    "total_quizzes": 8,
+    "drop_lowest": 2,
+    "quiz_schedule": [
+      {
+        "quiz": 1,
+        "class": 3,
+        "date": "2026-04-08",
+        "case": "Cola Wars Continue",
+        "graded": false
+      },
+      {
+        "quiz": 2,
+        "class": 5,
+        "date": "2026-04-14",
+        "case": "Walmart Stores, Inc.",
+        "graded": false
+      }
+    ]
+  },
+  "midterm": {
+    "class_number": 11,
+    "date": null,
+    "format": "In-class written exam: MCQ, fill-in-the-blank, short essay",
+    "weight": "15%"
+  },
+  "final_project": {
+    "name": "Capstone",
+    "due_class": 20,
+    "weight": "25%"
+  },
+  "change_log": [],
+  "action_items": [],
+  "next_action_id": 1
+}

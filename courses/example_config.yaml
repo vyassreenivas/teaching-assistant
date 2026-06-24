@@ -1,0 +1,154 @@
+# ============================================================
+# COURSE CONFIG — Fill this in once per course instance
+# ============================================================
+# This file + the weekly plan Excel + the student roster
+# are the three required inputs. Everything else is generated.
+# ============================================================
+
+# --- Course identity ---
+course_name: "MGMT 162: Strategic Analysis — The Business Capstone"
+course_code: "MGMT162"
+quarter: "Spring 2026"
+university: "Santa Clara University"
+instructor: "Vyas Sreenivas"
+
+# --- Schedule ---
+schedule:
+  days: ["Tuesday", "Thursday"]       # teaching days
+  first_class: "2026-03-31"
+  last_class: "2026-06-04"
+  total_classes: 20
+  class_duration_min: 100
+
+# --- Sections ---
+# List every section. Single-section courses have one entry.
+sections:
+  - name: "Section 2"
+    time: "2:00-3:40 PM"
+    enrollment: 30
+  - name: "Section 3"
+    time: "5:40-7:20 PM"
+    enrollment: 20
+
+# --- Student ID scheme ---
+# Prefix for anonymized IDs (generates prefix_001, prefix_002, ...)
+# FERPA: real names only in students.json (gitignored)
+student_id_prefix: "s2"
+
+# --- Assessments ---
+quizzes:
+  total: 8
+  drop_lowest: 2
+  on_case_classes_only: true          # quiz only on days with a case
+
+midterm:
+  class_number: 11                    # which class number
+  format: "In-class written exam: MCQ, fill-in-the-blank, short essay"
+  weight: "15%"
+
+final_project:
+  name: "Capstone"
+  due_class: 20                       # last class
+  weight: "25%"
+  milestones:                         # optional intermediate deadlines
+    - name: "Part A"
+      due_date: "2026-04-30"
+    - name: "Part B"
+      due_date: "2026-06-04"
+
+# --- Grading weights (for reference, displayed in memory.md) ---
+grading:
+  participation: "15%"
+  quizzes: "15%"
+  midterm: "15%"
+  strategy_in_news: "5%"
+  case_presentation: "15%"
+  capstone_a: "10%"
+  capstone_b: "15%"
+  peer_evaluation: "10%"
+
+# --- Guest speakers (optional) ---
+# Leave empty [] if none. Used to auto-generate contingency backup plans.
+guest_speakers: []
+  # - name: "Karen Runde"
+  #   class_number: 5
+  #   date: "2026-04-14"
+  #   topic: "Entrepreneurship in Practice"
+
+# --- Course-specific features (optional toggles) ---
+features:
+  strategy_in_news: true              # weekly news article task
+  bmc_element_tracking: false         # Business Model Canvas progression
+  group_presentations: true           # student team presentations
+  presentation_classes: [18, 19]      # which class numbers
+
+# --- Excel input mapping ---
+# Tell the generator which columns in your weekly plan Excel
+# map to which fields. Set to null if column doesn't exist.
+excel:
+  file: "weekly_plan.xlsx"            # filename in inputs/ folder
+  sheet: "Sheet1"                     # primary sheet name
+  columns:
+    session_number: "S No"
+    date: "Date"
+    day: "Day"
+    topic: "Topic"
+    readings: "Reading & Assignment"
+    assignment: "Assignment"
+    # Optional columns — set to null if your Excel doesn't have them
+    key_question: "Key Question"         # MGMT162 has this
+    optional_reading: "Optional Reading" # MGMT162 has this
+    framework_element: null              # MGMT165 uses "Canvas Element"
+    revised_readings: null               # MGMT165 uses "Revised Reading & Assignment"
+    thoughts: null                       # MGMT165 uses "Thoughts"
+  activities_sheet: null                 # set to sheet name if activities are on a separate sheet
+  activities_columns:                    # only needed if activities_sheet is set
+    session: "Session"
+    activity_name: "Activity Name"
+    description: "Description"
+
+# --- Roster input ---
+roster:
+  file: "roster.xlsx"                 # filename in inputs/ folder
+  columns:
+    first_name: "First Name"
+    last_name: "Last Name"
+    email: "Email"
+    # Optional
+    student_id: null                  # university ID column, if present
+
+# --- SET baseline (optional) ---
+# Historical SET scores from previous times teaching this course.
+# Used to populate set_protocol.md with personalized targets.
+# Leave null if teaching for the first time.
+set_baseline:
+  overall: null
+  organization: null      # Q1.2
+  rigor: null              # Q1.3
+  enthusiasm: null         # Q1.4
+  interaction: null        # Q1.5
+  respect: null            # Q1.6
+  feedback: null           # Q1.7
+  workload: null           # Q1.8
+  learning: null           # Q1.9
+
+# --- Class time template ---
+# Default 100-minute structure. Adjust segments and times to taste.
+# The generator writes this into the weekly_rhythm.md.
+class_template:
+  - segment: "Attendance + Agenda"
+    minutes: 5
+  - segment: "Hook / Recap"
+    minutes: 10
+  - segment: "Concept 1"
+    minutes: 20
+  - segment: "Activity 1"
+    minutes: 20
+  - segment: "Break"
+    minutes: 5
+  - segment: "Concept 2 / Discussion"
+    minutes: 20
+  - segment: "Activity 2"
+    minutes: 10
+  - segment: "Recap + Preview"
+    minutes: 10

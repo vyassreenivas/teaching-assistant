@@ -1,0 +1,49 @@
+# Memory — {{course_code}} {{quarter}}
+
+> Rolling memory file. Updated at the end of each working session. Keep under 100 lines. Move stale facts to the archive, not here.
+
+---
+
+## Course identity
+
+- {{course_name}}, {{quarter}}, {{university}}
+{{#sections}}
+- {{name}}: {{days_str}} {{time}}, ~{{enrollment}} students
+{{/sections}}
+- {{total_classes}} classes, {{class_duration_min}} min each, {{first_class}} to {{last_class}}
+{{#midterm}}
+- Midterm: Class {{class_number}}
+{{/midterm}}
+{{#quizzes}}
+- Quizzes: {{total}} total, drop lowest {{drop_lowest}}
+{{/quizzes}}
+
+## Grading weights
+
+{{#grading_items}}
+- {{component}}: {{weight}}
+{{/grading_items}}
+
+## Current focus
+
+_Updated after each working session. What are the top priorities right now?_
+
+- (fill in after first class)
+
+## Patterns in this cohort
+
+_Observations about student energy, engagement, section differences._
+
+- (fill in as patterns emerge)
+
+## Content notes
+
+_What worked, what got squeezed, what needs revisiting._
+
+- (fill in after first few classes)
+
+## Things to remember for next quarter
+
+_Design decisions, mistakes, structural insights worth carrying forward._
+
+- (accumulate throughout the quarter)

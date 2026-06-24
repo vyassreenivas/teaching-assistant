@@ -1,0 +1,10 @@
+# FERPA
+students.json
+inputs/roster.*
+
+# Licensed content
+inputs/*.pdf
+
+# OS
+.DS_Store
+__pycache__/

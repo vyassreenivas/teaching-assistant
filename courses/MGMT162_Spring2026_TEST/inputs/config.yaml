@@ -1,0 +1,113 @@
+# Test config — MGMT162 Spring 2026
+course_name: "MGMT 162: Strategic Analysis — The Business Capstone"
+course_code: "MGMT162"
+quarter: "Spring 2026"
+university: "Santa Clara University"
+instructor: "Vyas Sreenivas"
+
+schedule:
+  days: ["Tuesday", "Thursday"]
+  first_class: "2026-03-31"
+  last_class: "2026-06-04"
+  total_classes: 20
+  class_duration_min: 100
+
+sections:
+  - name: "Section 2"
+    time: "2:00-3:40 PM"
+    enrollment: 30
+  - name: "Section 3"
+    time: "5:40-7:20 PM"
+    enrollment: 20
+
+student_id_prefix: "s2"
+
+quizzes:
+  total: 8
+  drop_lowest: 2
+  on_case_classes_only: true
+
+midterm:
+  class_number: 11
+  format: "In-class written exam: MCQ, fill-in-the-blank, short essay"
+  weight: "15%"
+
+final_project:
+  name: "Capstone"
+  due_class: 20
+  weight: "25%"
+  milestones:
+    - name: "Part A"
+      due_date: "2026-04-30"
+    - name: "Part B"
+      due_date: "2026-06-04"
+
+grading:
+  participation: "15%"
+  quizzes: "15%"
+  midterm: "15%"
+  strategy_in_news: "5%"
+  case_presentation: "15%"
+  capstone_a: "10%"
+  capstone_b: "15%"
+  peer_evaluation: "10%"
+
+guest_speakers: []
+
+features:
+  strategy_in_news: true
+  group_presentations: true
+  presentation_classes: [18, 19]
+
+excel:
+  file: "weekly_plan.xlsx"
+  sheet: "Sheet1"
+  columns:
+    session_number: "S No"
+    date: "Date"
+    day: "Day"
+    topic: "Topic"
+    readings: "Reading & Assignement"  # note: typo in original Excel header
+    assignment: "Assignment"
+    key_question: "Key Question"
+    optional_reading: "Optional Reading"
+    framework_element: null
+    revised_readings: null
+    thoughts: null
+  activities_sheet: null
+
+roster:
+  file: "roster.xlsx"
+  columns:
+    first_name: "First Name"
+    last_name: "Last Name"
+    email: "Email"
+
+set_baseline:
+  overall: null
+  organization: null
+  rigor: null
+  enthusiasm: null
+  interaction: null
+  respect: 4.58
+  feedback: null
+  workload: null
+  learning: null
+
+class_template:
+  - segment: "Attendance + Agenda"
+    minutes: 5
+  - segment: "Hook / Recap"
+    minutes: 10
+  - segment: "Concept 1"
+    minutes: 20
+  - segment: "Activity 1"
+    minutes: 20
+  - segment: "Break"
+    minutes: 5
+  - segment: "Concept 2 / Discussion"
+    minutes: 20
+  - segment: "Activity 2"
+    minutes: 10
+  - segment: "Recap + Preview"
+    minutes: 10

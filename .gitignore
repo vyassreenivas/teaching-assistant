@@ -1,0 +1,44 @@
+# ---- OS / editor / tooling junk ----
+.DS_Store
+._*
+*.tmp
+*~
+*.bak
+~$*
+.~lock.*#
+__pycache__/
+.ipynb_checkpoints/
+.claude/
+
+# ---- Secrets ----
+.env
+.env.*
+*secret*
+*credentials*
+*token*.json
+
+# ---- FERPA / HBP: protect anything dropped into course inputs ----
+**/students.json
+**/inputs/*.xlsx
+**/inputs/*.xls
+**/inputs/*.csv
+**/inputs/*.imscc
+**/inputs/*.pdf
+**/inputs/*.docx
+**/inputs/*Roster*
+**/Student Work/
+**/03_Student_Data/
+
+# ---- scratch ----
+*.json.bak
+*.json.bak_*
+
+# media
+**/*.mp3
+**/*.mp4
+**/*.mov
+**/*.m4a
+**/*.wav
+
+.backup.log
+.backup.log.launchd

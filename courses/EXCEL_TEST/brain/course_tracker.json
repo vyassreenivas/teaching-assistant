@@ -1,0 +1,91 @@
+{
+  "course": "MGMT 162: Strategic Analysis",
+  "quarter": "Spring 2026",
+  "sections": {
+    "Section 2": {
+      "time": "2:00-3:40 PM",
+      "students": 30
+    },
+    "Section 3": {
+      "time": "5:40-7:20 PM",
+      "students": 20
+    }
+  },
+  "schedule": {
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "first_class": "2026-03-31",
+    "last_class": "2026-06-04",
+    "total_classes": 20
+  },
+  "master_input": {
+    "file": "inputs/course_plan.xlsx"
+  },
+  "classes": [
+    {
+      "number": 1,
+      "date": "2026-03-31",
+      "day": "Tuesday",
+      "topic": "Course Introduction & Overview",
+      "session_type": "lecture",
+      "status": "upcoming",
+      "key_question": "What is strategy, and why does it matter?"
+    },
+    {
+      "number": 2,
+      "date": "2026-04-02",
+      "day": "Thursday",
+      "topic": "Industry Analysis I (Lecture)",
+      "session_type": "lecture",
+      "status": "upcoming",
+      "key_question": "What structural forces determine whether an industry is attractive?"
+    },
+    {
+      "number": 3,
+      "date": "2026-04-07",
+      "day": "Tuesday",
+      "topic": "Industry Analysis II",
+      "session_type": "case",
+      "status": "upcoming",
+      "case": "Cola Wars Continue: Coke and Pepsi in 2010 (711462)",
+      "key_question": "How do Coke and Pepsi both thrive in the same industry?"
+    }
+  ],
+  "quiz_tracker": {
+    "total_quizzes": 8,
+    "drop_lowest": 2,
+    "quiz_schedule": [
+      {
+        "quiz": 1,
+        "class": 3,
+        "date": "2026-04-07",
+        "case": "Cola Wars Continue: Coke and Pepsi in 2010 (711462)",
+        "graded": false
+      }
+    ]
+  },
+  "midterm": {
+    "class_number": 11,
+    "date": null,
+    "format": "In-class written exam: MCQ, fill-in-the-blank, short essay",
+    "weight": "15%"
+  },
+  "final_project": {
+    "name": "Capstone",
+    "due_class": 20,
+    "weight": "25%"
+  },
+  "guest_speakers": [
+    {
+      "name": "Karen Runde",
+      "session": 5,
+      "date": "2026-04-14",
+      "topic": "Entrepreneurship in Practice",
+      "notes": "Founder of CoShun, social entrepreneur"
+    }
+  ],
+  "action_items": [],
+  "next_action_id": 1
+}
