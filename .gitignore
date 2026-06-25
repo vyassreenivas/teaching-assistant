@@ -42,3 +42,9 @@ __pycache__/
 
 .backup.log
 .backup.log.launchd
+
+# Prior-course reference material (bulky, local only)
+**/inputs/prior_canvas*/
+
+# Prior-instance reference (student data + bulky): local only
+**/inputs/prior_reference/
