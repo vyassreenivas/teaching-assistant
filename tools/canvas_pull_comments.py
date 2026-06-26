@@ -18,7 +18,7 @@ USAGE
                  e.g. https://camino.scu.edu/courses/28714  -> 28714
 3. Run, e.g. for Spring 165:
 
-   export CANVAS_HOST="camino.scu.edu"          # your Canvas host, no https://
+   export CANVAS_HOST="camino.instructure.com"  # your Canvas host, no https://
    export CANVAS_TOKEN="paste-your-token-here"  # stays in your shell only
 
    python3 canvas_pull_comments.py \

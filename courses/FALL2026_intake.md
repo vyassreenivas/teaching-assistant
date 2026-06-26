@@ -89,3 +89,13 @@ Per the gbrain principle (and Spring's own lesson): build the first course brain
 - **Midterm placement:** which class number / date is the midterm in each course?
 - **Rosters:** available now, or closer to term start? (Brain can be built without; roster slots in later.)
 - **165 check-in timing:** exact sessions for the early check-ins, set once the session plan is in.
+
+---
+
+## D5 — MGMT165 gold standard: replicate Spring 2026, not Fall 2025
+
+For Fall 2026 MGMT165, the template is **Spring 2026** (TtH 10:20 section). Evidence: Spring drew strong unsolicited student praise and Vyas gave fast, detailed feedback throughout (Claude-assisted). **Fall 2025** had weak SET scores and thin feedback — it is the cautionary baseline, used to learn what to avoid, not to copy. Spring 2026 SET scores are not in yet; revisit when they land, but the qualitative signal + the Fall-vs-Spring feedback contrast is strong enough to set Spring as the model now.
+
+**The causal lever to preserve:** fast + detailed feedback. This is the single biggest driver of the Spring reception and is exactly what the grading/feedback workflow (course-grader skill) exists to make sustainable. Fall 165 must protect the feedback turnaround above almost everything else.
+
+Reconstructed Spring 2026 165 skeleton (from the .imscc): 20 sessions, weights = Participation 20 / Case Presentation 10 / Case Challenge 10 / Quizzes 10 / Midterm 20 / BMC 10 / Final Pitch 20; customer-discovery spine Sessions 1-9, midterm S10, build-and-pitch S11-19; guest speakers S6 (Karen Runde) + S12 (Morgan Slain).
