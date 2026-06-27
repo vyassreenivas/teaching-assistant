@@ -58,6 +58,18 @@ Comment is just the **answer key** (the correct letters/T-F). No prose. Auto-gra
 
 ---
 
-## Note on provenance (and a future refinement)
+## Edit tendencies (draft → final)
 
-These are his FINAL versions, so they define the target directly. A useful next step when time allows: diff these finals against Claude's original drafts (saved in the archived Spring folder) to extract his systematic edit tendencies — what he consistently cut, tightened, or added. That delta would sharpen the skill from "sounds like him" to "anticipates his edits."
+Observed by diffing Claude's original Spring 165 drafts against Vyas's final Camino-posted versions (Venture Reflection compared in full, Pitch Day sampled). The drafts were already on-voice, so his edits are surgical, not rewrites. The high-leverage moves to bake in:
+
+1. **Use "Full marks." as a pivot, never as a terminal flourish.** When a comment is pure praise and the score already shows full credit, he deletes a closing "Full marks." (4 of 7 reflection comments dropped it). He keeps it only when it pivots into a growth note — "Full marks. One thing for next time, not a deduction: …" — where it does the work of separating the earned grade from the guidance. So: end a pure-praise comment on the praise; only write "Full marks." when a forward note follows it.
+
+2. **Treat scores as proposals; he nudges them on review.** He recalibrated at least one pitch score by a point when posting (89 → 90). Generated scores are drafts. Always surface borderline cases and the rounding rule, and never present a number as final.
+
+3. **Strip the scaffolding before it goes to Camino.** His drafts carry a summary table and a per-criterion breakdown line for his own review; only the comment prose is pasted into the LMS. So the workflow should emit two layers: (a) an instructor-review scaffold (summary table, rubric math, borderline flags), and (b) the paste-ready comment with all scaffolding removed.
+
+4. **Don't over-edit on regeneration.** The prose voice is already right when it follows this profile. The wins are the three moves above, not rewriting sentences. Resist the urge to "improve" a clean draft.
+
+## Note on provenance
+
+These are his FINAL Camino-posted versions, diffed against Claude's drafts, so they define the target directly — both the voice (top of file) and the edit tendencies (just above). Refresh this profile after each term from the latest pulled comments.
